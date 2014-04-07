@@ -24,9 +24,12 @@ h2 {
     margin-bottom: 8px;
 }
 
-
 p {
     margin-bottom: 24px;
+}
+
+h2+p {
+    margin-top: 10px;
 }
 
 img {
@@ -48,6 +51,16 @@ nav a {
 
 nav a:hover {
     border-bottom: 4px solid #5cb0ff;
+}
+
+section h2 {
+    background-color:#5cb0ff;
+    text-align: center;
+}
+
+section p {
+    text-align:left;
+    font-size: 12px; 
 }
 
 article h1 {
@@ -96,7 +109,6 @@ figcaption {
     margin-bottom: 24px;
     margin-top: -6px;
 }
-
 
 footer {
     background-color: #5cb0ff;
@@ -161,15 +173,10 @@ footer ul .social {
 
 .banner {
     font-family: 'Oswald', sans-serif;
-    text-align: center;
 }
 
 .banner img {
     margin-bottom: 16px;
-}
-
-.banner p {
-    padding: 0 15%;
 }
 
 .promo img {
@@ -217,4 +224,12 @@ footer ul .social {
         text-align: left;   
     }
     
+    header h1 {
+        text-align:center;
+        background-color:#5cb0ff;
+    }
+    
+    header nav  {
+        text-align:center;
+    }
 }
